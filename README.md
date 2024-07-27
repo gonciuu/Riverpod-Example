@@ -1,16 +1,41 @@
-# medium_riverpod_sample
+# Riverpod and Flutter Hooks Example
 
-Flutter showcase app to show it on medium.
+## Description
 
-## Getting Started
+This project demonstrates how to use Riverpod and Flutter Hooks for state management in a Flutter application. It includes examples of fetching data with Dio, managing state with providers, and performing data mutations.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Dio client setup for HTTP requests
+- Repository pattern for data management
+- Riverpod for state management
+- Flutter Hooks for functional component structure
+- Examples of fetching and mutating data
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/gonciuu/Riverpod-Example.git
+    ```
+2. Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+3. Run code generation:
+    ```bash
+    dart run build_runner build
+    ```
+4. Run the app:
+    ```bash
+    flutter run
+    ```
+
+## Usage
+
+- The project includes examples of fetching data from an API using Dio and Riverpod.
+- It also shows how to manage state and perform mutations using providers and state notifiers.
+
+## Learn More
+
+For a detailed tutorial and explanation, read the full article on [Medium](https://medium.com/your-article-link](https://gonciu.medium.com/a998dda56cf)).
